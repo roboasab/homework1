@@ -1,0 +1,11 @@
+import json
+1="what is the sky color?"
+2="what is the snow color?"
+3="what is the sky color?"
+4="what is the snow color?"
+5="what is the sky color?"
+true={1:"blue",2:"white",3:"blue",4:"white",5:"blue"}
+r=json.dumbs(true)
+with open ("r.json","w") as t:
+    t.write(r)
+    
